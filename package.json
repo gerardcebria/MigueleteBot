@@ -1,0 +1,30 @@
+{
+  "name": "package.json",
+  "version": "0.0.1",
+  "description": "Twitter bot that simulates the historical clock-tower Miguelete(Valencia, Spain).",
+  "keywords": [
+    "twitterbot",
+    "Twitter"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gerardcebria/MigueleteBot.git"
+  },
+  "author": "Gerard Cebria I Leon <gerardcebria@gmail.com>",
+  "dependencies": {
+    "nodemon": "^1.18.4",
+    "twit": "^2.2.11"
+  },
+  "main": "bot.js",
+  "engines": {
+    "node": ">= 0.4.1"
+  },
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "bugs": {
+    "url": "https://github.com/gerardcebria/MigueleteBot/issues"
+  },
+  "homepage": "https://github.com/gerardcebria/MigueleteBot#readme",
+  "license": "ISC"
+}
